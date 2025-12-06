@@ -1,0 +1,122 @@
+/* Global */
+body {
+    margin: 0;
+    font-family: Poppins, sans-serif;
+    background: #e0f4ff; /* sky blue tone */
+}
+
+/* Navbar */
+.navbar {
+    background: #0b6ea8;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a:hover {
+    color: #bde8ff;
+}
+
+/* Hero Section */
+.hero {
+    background: url('mechanical-bg.jpg') center/cover no-repeat;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero .content h1 {
+    font-size: 3rem;
+    color: #003f63;
+    text-shadow: 2px 2px 4px white;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #004d73;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 12px 30px;
+    background: #0b6ea8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #094f79;
+}
+
+/* Sections */
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.section h2 {
+    color: #003f63;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+/* Service Boxes */
+.service-boxes {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    background: white;
+    padding: 20px;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-left: 6px solid #0b6ea8;
+}
+
+.box h3 {
+    color: #0b6ea8;
+}
+
+.about p {
+    max-width: 800px;
+    margin: auto;
+    color: #003f63;
+}
+
+.contact p {
+    color: #003f63;
+    font-weight: 600;
+}
+
+/* Footer */
+footer {
+    background: #0b6ea8;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
